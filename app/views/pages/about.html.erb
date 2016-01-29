@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title></title>
+    </head>
+      <%= stylesheet_link_tag 'style' %>
+    <body>
+        <header>
+            <div id="header_container">
+                <div class="col_3">
+                  <img class="logo" src="/assets/2015-05-26_12-29-16__logo-dark.png" height="18px" width="143px">
+                </div>
+                <div class="col_3">
+                    <nav>
+                        <ul class="menu">
+                          <li><%= link_to 'Go Back Home', root_path %></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col_3">
+                    <a href="#" class="getStartedBTN">Get Started</a>
+                </div>
+            </div><!-- Header-Container Ends Here -->
+        </header>
+        <div class="main_container">
+            <div id="top_section_main">
+                <div id="top_section_content">
+                    <h1>Awesome looks so good</h1>
+                    <p>Awesome is the landing page you wish you had when you started.</p>
+                    <img class="play_button" src="/assets/play.png" alt="Press Play" height="120px" width="120px">
+                    <div class="main_form">
+                        <form>
+                            <h6>SIGN UP FOR A FREE 30-DAY TRIAL</h6>
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email">
+                            <button style="trial" type="submit" value="Submit">Start Free Trial</button>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- End of Top Main Section -->
+    </body>
+</html>
