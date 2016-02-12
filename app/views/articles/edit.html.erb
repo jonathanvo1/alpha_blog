@@ -9,19 +9,4 @@
 </ul>
 <% end %>
 
-<%= form_for @article do |f| %>
-  <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
-  <p>
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
-  </p>
-  <p>
-    <%= f.submit %>
-  </p>
-
-<% end %>
-
-<%= link_to "Back to articles list", articles_path %>
+<%= render 'form' %>
